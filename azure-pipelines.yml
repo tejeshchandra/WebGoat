@@ -1,5 +1,5 @@
 # Starter pipeline
-- task: FortifyOnDemandStatic@6
+ task: FortifyOnDemandStatic@6
   inputs:
     FortifyProjects: '$WB_UAT_203_FoD'
     ReleaseId: 16308
