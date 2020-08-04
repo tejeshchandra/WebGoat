@@ -1,7 +1,7 @@
 # Starter pipeline
- task: FortifyOnDemandStatic@6
-  inputs:
-    FortifyProjects: '$WB_UAT_203_FoD'
+task: FortifyOnDemandStatic@6
+inputs:
+    FortifyProjects: '$/WB_UAT_203_FoD'
     ReleaseId: 16308
     FodConnection: 'FoD_UAT_203'
     InProgressScanActionType: '2'
